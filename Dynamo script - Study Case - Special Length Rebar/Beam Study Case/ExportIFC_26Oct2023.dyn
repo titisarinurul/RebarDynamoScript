@@ -1,0 +1,425 @@
+{
+  "Uuid": "b35e11d9-679d-4759-bf50-2189bfa8e0f4",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "ExportIFC_26Oct2023",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction, DynamoCore",
+      "FunctionSignature": "DSCore.String.Join@string,string[]",
+      "FunctionType": "VariableArgument",
+      "NodeType": "FunctionNode",
+      "Id": "77740caadea741dfab2bc698f322df56",
+      "Inputs": [
+        {
+          "Id": "e163636c0e254b7ead1d40c93c3cb696",
+          "Name": "separator",
+          "Description": "String to be inserted between joined strings.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "78a2b376795a415989f79e26da9451eb",
+          "Name": "string0",
+          "Description": "Strings to be joined into a single string.\n\nstring[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "7ac3f38b917a4b71b89dec1c17508bef",
+          "Name": "string1",
+          "Description": "string[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "5a051888276c4600b8f503137aec0aeb",
+          "Name": "string2",
+          "Description": "string[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e3bb23248e1748e8a306651f1b37e9f5",
+          "Name": "string",
+          "Description": "A string made from the list of strings including the separator character.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Concatenates multiple strings into a single string, inserting the given separator between each joined string.\n\nString.Join (separator: string, strings: string[]): string"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction, DynamoCore",
+      "FunctionSignature": "DSCore.String.Concat@string[]",
+      "FunctionType": "VariableArgument",
+      "NodeType": "FunctionNode",
+      "Id": "31772c34551a4499b92001de3e7930d6",
+      "Inputs": [
+        {
+          "Id": "b1340d07161b4c69a59e4945b5eeb66c",
+          "Name": "string0",
+          "Description": "List of strings to concatenate.\n\nstring[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "a312bb2b56b24458abdf33691223c1d6",
+          "Name": "string",
+          "Description": "String made from list of strings.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Concatenates multiple strings into a single string.\n\nString.Concat (strings: string[]): string"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "BF2D",
+      "Id": "3aab08a3ab404fe7b96282349988e60c",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "5ae02035b873442eb2983dc371625f8c",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "@",
+      "Id": "d511245c2bfa4411b3b2ee792a3a2817",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "b252a5ce19da4559bb32e0e2f9181ec1",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "Hj",
+      "Id": "a2b87d34ed0c48d2a8051abac670e45d",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "144a3ae0a3fc40c788c7f6f4ece641cd",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.StringInput, CoreNodeModels",
+      "NodeType": "StringInputNode",
+      "InputValue": "G",
+      "Id": "401719b33b3d4e4ba14ca4caac7552f1",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "38730c2faa46430caa1ec27761166866",
+          "Name": "",
+          "Description": "String",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a string."
+    },
+    {
+      "ConcreteType": "Dynamo.ComboNodes.DSModelElementsByCategorySelection, DSRevitNodesUI",
+      "SelectedIndex": 666,
+      "SelectedString": "OST_Rebar",
+      "NodeType": "ExtensionNode",
+      "InstanceId": [
+        "58919c54-53a3-48b6-9095-660b81f030c8-00084c01"
+      ],
+      "Id": "4890706850a647f6b415ffb770d45d88",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "eea17656d58c463ab4033bd55e51c157",
+          "Name": "Elements",
+          "Description": "The selected elements.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"A\";",
+      "Id": "37df01c8feea4b70b6cb8676d548826f",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "36250bc0c0854ea4bc8eeed0b9a4c93a",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.FromObject, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "a17638cdb9d542bdae6eeaf9837a11a0",
+      "Inputs": [
+        {
+          "Id": "e56c7333df7c40ebb31d23d9ff4ce6e9",
+          "Name": "object",
+          "Description": "Object to be serialized",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "5b6eeac5f55243c8ba7e7e4031ca3373",
+          "Name": "string",
+          "Description": "String representation of the object",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Convert an object to a string representation."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "5ae02035b873442eb2983dc371625f8c",
+      "End": "78a2b376795a415989f79e26da9451eb",
+      "Id": "9ef7f605fea34ab39c2d78796ffa0897",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "b252a5ce19da4559bb32e0e2f9181ec1",
+      "End": "e163636c0e254b7ead1d40c93c3cb696",
+      "Id": "72e91054a78e4b7b9eb34add6ec84446",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "144a3ae0a3fc40c788c7f6f4ece641cd",
+      "End": "7ac3f38b917a4b71b89dec1c17508bef",
+      "Id": "0db201262b10475f83f5bf146f131c5e",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "38730c2faa46430caa1ec27761166866",
+      "End": "5a051888276c4600b8f503137aec0aeb",
+      "Id": "39bc20dc6e394e31a65e094684aa272c",
+      "IsHidden": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.13",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "2.0",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.13.1.3887",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Name": "String.Join",
+        "ShowGeometry": true,
+        "Id": "77740caadea741dfab2bc698f322df56",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 632.73244526417034,
+        "Y": 417.14389720871537
+      },
+      {
+        "Name": "String.Concat",
+        "ShowGeometry": true,
+        "Id": "31772c34551a4499b92001de3e7930d6",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1407.4356671990965,
+        "Y": 464.44310209412532
+      },
+      {
+        "Name": "Shape Type",
+        "ShowGeometry": true,
+        "Id": "3aab08a3ab404fe7b96282349988e60c",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 294.5,
+        "Y": 379.0
+      },
+      {
+        "Name": "String",
+        "ShowGeometry": true,
+        "Id": "d511245c2bfa4411b3b2ee792a3a2817",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 303.5,
+        "Y": 226.0
+      },
+      {
+        "Name": "Header Block",
+        "ShowGeometry": true,
+        "Id": "a2b87d34ed0c48d2a8051abac670e45d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 304.5,
+        "Y": 546.0
+      },
+      {
+        "Name": "Geometry Block",
+        "ShowGeometry": true,
+        "Id": "401719b33b3d4e4ba14ca4caac7552f1",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 284.6449297104582,
+        "Y": 708.84123300122667
+      },
+      {
+        "Name": "Select Model Elements By Category",
+        "ShowGeometry": true,
+        "Id": "4890706850a647f6b415ffb770d45d88",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 147.63316115989431,
+        "Y": 986.78308051648571
+      },
+      {
+        "Name": "Code Block",
+        "ShowGeometry": true,
+        "Id": "37df01c8feea4b70b6cb8676d548826f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 334.0390457161202,
+        "Y": 1316.7885756197156
+      },
+      {
+        "Name": "String from Object",
+        "ShowGeometry": true,
+        "Id": "a17638cdb9d542bdae6eeaf9837a11a0",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1597.0681749809619,
+        "Y": 997.42612180946833
+      }
+    ],
+    "Annotations": [],
+    "X": -9.1985258454284349,
+    "Y": -853.38220923605536,
+    "Zoom": 1.0542982150113265
+  }
+}
